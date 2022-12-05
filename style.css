@@ -1,0 +1,21 @@
+
+html, body {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigDiv {
+    border-radius: 8px;
+    border-color: black;
+    border-width: 20px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.medDiv {
+    border-radius: 8px;
+    border-color: black;
+    border-width: 20px;
+    padding: 50px;
+    margin: 50px;
+}
