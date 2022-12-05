@@ -16,6 +16,7 @@ html, body {
     border-radius: 8px;
     border-color: black;
     border-width: 20px;
+    border: 20px;
     padding: 50px;
     margin: 50px;
 }
