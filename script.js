@@ -1,11 +1,13 @@
 
+let div = document.createElement('div')
+
 //// function createDiv (sqr) {}
 
-    // var div = document.createElement('div');
+    // let div = document.createElement('div');
 
     // div.innerHTML = sqr 
 
-    // var container = document.createElementFragment();
+    // let container = document.createElementFragment();
 
 
 
@@ -37,3 +39,12 @@
         // Width 
 
         // height
+
+
+//// Amount of div's 
+
+        // Number of div's width * Number of div's height
+
+//// Wrap div's
+
+        // 
