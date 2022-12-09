@@ -1,5 +1,8 @@
 
 let div = document.createElement('div')
+let divWide = document.getElementById();
+let divTall = document.getElementById();
+let amountDiv;
 
 //// function createDiv (sqr) {}
 
@@ -36,15 +39,25 @@ let div = document.createElement('div')
 
 //// Interact with CSS ?
 
-        // Width 
+        // Width = auto;
 
-        // height
+        // height = auto;
 
 
 //// Amount of div's 
 
         // Number of div's width * Number of div's height
+        // amountDiv = widthDiv * heightDiv
+
+
+/* for (i = 0; i === amountDiv; i++) {
+     createDiv();   
+}
+
+*/
 
 //// Wrap div's
 
-        // 
+//// Create border for div's
+
+//// Create scalable or adjustable thing to set div width and height amounts
