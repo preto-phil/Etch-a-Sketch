@@ -24,6 +24,8 @@ body {
 }
 
 
+/* Top Block */
+
 .top-block {
     display: flex;
 
@@ -37,11 +39,30 @@ body {
 }
 
 
+
+/* Middle Block */
+
 .middle-block {
     display: flex;
 
     width: 1000px;
 }
+
+
+.left-middle-block {
+    display: flex;
+}
+
+.right-middle-block {
+    display: flex;
+}
+
+.top-rmb {
+    display: flex;
+
+    flex-direction: column;
+}
+
 
 
 /* Bottom block */
@@ -59,8 +80,6 @@ body {
 button {
 
     background-color: rgb(109, 108, 106);
-
-    color: white;
 
     font-size: 28px;
 }
