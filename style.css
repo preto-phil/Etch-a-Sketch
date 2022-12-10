@@ -1,41 +1,76 @@
 
 html, body {
     color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
 }
 
 body {
     display: flex;
 
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(202, 199, 199);
 }
 
-.bigDiv {
-    display: flex;
-    
+* {
     border: 6px;
     border-style: solid;
     border-radius: 8px;
-    border-color: blueviolet;
-    border-width: 20px;
-    padding: 50px;
-    margin: 50px;
-
-    width: 500px;
-    height: 500px;
-
-    justify-content: right;
+    border-color: rgb(0,0,0);
+    padding: 20px;
 }
 
-.medDiv {
+
+.top-block {
     display: flex;
 
-    border: 6px;
-    border-style: solid;
-    border-radius: 8px;
-    border-color: blue;
-    border-width: 20px;
-    padding: 50px;
-    margin: 50px;
+    width: 1000px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: monospace;
+    font-size: 48px;
 }
+
+
+.middle-block {
+    display: flex;
+
+    width: 1000px;
+}
+
+
+/* Bottom block */
+
+.bottom-block {
+    display: flex;
+
+    width: 1000px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+
+    background-color: rgb(109, 108, 106);
+
+    color: white;
+
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
