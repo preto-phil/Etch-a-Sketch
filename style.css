@@ -4,19 +4,38 @@ html, body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
 .bigDiv {
+    display: flex;
+    
+    border: 6px;
+    border-style: solid;
     border-radius: 8px;
-    border-color: black;
+    border-color: blueviolet;
     border-width: 20px;
     padding: 50px;
     margin: 50px;
+
+    width: 500px;
+    height: 500px;
+
+    justify-content: right;
 }
 
 .medDiv {
+    display: flex;
+
+    border: 6px;
+    border-style: solid;
     border-radius: 8px;
-    border-color: black;
+    border-color: blue;
     border-width: 20px;
-    border: 20px;
     padding: 50px;
     margin: 50px;
 }
