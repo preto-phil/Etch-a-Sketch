@@ -23,13 +23,17 @@ function createDivFunction() {
 
 button.addEventListener('click', (pressed) => {
         pressed.target.id;
-        
-        // deleteDiv();
+               
+        if (amountBlocks === 0) {
+                input = prompt("How many blocks?");
+                amountBlocks = Number(input);
+                
+                createGrid();
+        } else {
+                deleteDiv();
+        }
 
-        input = prompt("How many blocks?");
-        amountBlocks = Number(input);
-        
-        createGrid();
+
 });
 
 function createGrid() {      
@@ -44,7 +48,7 @@ function deleteDiv() {
         
         let deleteDiv = document.getElementsByClassName('newDiv');
         
-        deleteDiv.remove();
+        deleteDiv[0].remove();
 }
 
 
