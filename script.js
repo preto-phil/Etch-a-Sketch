@@ -21,20 +21,30 @@ function createDivFunction() {
         gridBox[0].appendChild(createDiv);
 }
 
-button.addEventListener('click', (pressed) => {
-        pressed.target.id;
-               
+
+
+function letsGo() {
         if (amountBlocks === 0) {
-                input = prompt("How many blocks?");
-                amountBlocks = Number(input);
+                getInput();
                 
                 createGrid();
         } else {
-                deleteDiv();
+                while (amountBlocks > 0) {
+                        deleteDiv();
+                
+                }
+                
+                letsGo();
         }
+}        
+       
 
+function getInput() {
+        input = prompt("How many blocks?");
+        // if typeof != number then repeat
+        amountBlocks = Number(input);
+}
 
-});
 
 function createGrid() {      
 
@@ -49,6 +59,8 @@ function deleteDiv() {
         let deleteDiv = document.getElementsByClassName('newDiv');
         
         deleteDiv[0].remove();
+
+        amountBlocks = amountBlocks - 1;
 }
 
 
