@@ -3,7 +3,7 @@
 
 let gridBox = document.getElementsByClassName('gridBox');
 let button = document.getElementById('reset');
-let amountBlocks = 0;
+let amountBlocks;
 let input;
 
 function createDivFunction() {
@@ -13,6 +13,7 @@ function createDivFunction() {
         createDiv.style.width = "5px";
         createDiv.style.height = "5px";
         createDiv.style.display = "inline-block";
+        createDiv.classList.add('newDiv')
 
 
         let emptyDiv = document.createTextNode('');
@@ -33,7 +34,7 @@ button.addEventListener('click', (pressed) => {
 
 function createGrid() {      
 
-        for (i = 0; i <= amountBlocks; i++) {
+        for (i = 1; i < amountBlocks; i++) {
                 createDivFunction();
         }
 }
