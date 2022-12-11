@@ -46,6 +46,7 @@ body {
     display: flex;
 
     width: 1000px;
+    height: 450px;
 }
 
 
@@ -55,14 +56,35 @@ body {
 
 .right-middle-block {
     display: flex;
+
+    flex-direction: column;
+
+    height: 400px;
+
+    width: 750px;
+
+    margin-left: 10px;
 }
+
+/* Work ons for later
 
 .top-rmb {
     display: flex;
 
-    flex-direction: column;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    height: 100px;
 }
 
+.bottom-rmb {
+    display: flex;
+
+    height: 300px;
+}
+
+*/
 
 
 /* Bottom block */
