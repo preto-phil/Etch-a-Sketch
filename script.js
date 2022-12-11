@@ -3,7 +3,7 @@
 
 let gridBox = document.getElementsByClassName('gridBox');
 let button = document.getElementById('reset');
-let amountBlocks;
+let amountBlocks = 0;
 let input;
 
 function createDivFunction() {
@@ -24,7 +24,7 @@ function createDivFunction() {
 button.addEventListener('click', (pressed) => {
         pressed.target.id;
         
-        deleteDiv();
+        // deleteDiv();
 
         input = prompt("How many blocks?");
         amountBlocks = Number(input);
@@ -34,7 +34,7 @@ button.addEventListener('click', (pressed) => {
 
 function createGrid() {      
 
-        for (i = 1; i < amountBlocks; i++) {
+        for (i = 0; i < amountBlocks; i++) {
                 createDivFunction();
         }
 }
@@ -42,12 +42,9 @@ function createGrid() {
 
 function deleteDiv() {
         
-        let boxChild = gridBox.lastElementChild;
-        while (boxChild) {
-                gridBox.removeChild(boxChild);
-                boxChild = gridBox.lastElementChild;
-        }
-
+        let deleteDiv = document.getElementsByClassName('newDiv');
+        
+        deleteDiv.remove();
 }
 
 
