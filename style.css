@@ -53,12 +53,19 @@ body {
 }
 
 .gridBox {
-    display: flex;
+    display: inline-block;
 
     height: 10cm;
     width: 10cm;
 
 }
+
+.gridBox div:hover {
+    background-color: black;
+}
+
+
+
 
 /* Work ons for later
 
