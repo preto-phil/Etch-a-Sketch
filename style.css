@@ -46,9 +46,21 @@ body {
     display: flex;
 
     width: 1000px;
-    height: 450px;
+    height: 500px;
+
+    justify-content: center;
+    align-items: center;
 }
 
+.gridBox {
+    display: flex;
+
+    height: 10cm;
+    width: 10cm;
+
+}
+
+/* Work ons for later
 
 .left-middle-block {
     display: flex;
@@ -65,8 +77,6 @@ body {
 
     margin-left: 10px;
 }
-
-/* Work ons for later
 
 .top-rmb {
     display: flex;

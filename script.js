@@ -1,8 +1,30 @@
 
-let div = document.createElement('div')
-let divWide = document.getElementById();
-let divTall = document.getElementById();
-let amountDiv;
+// Create a grid of 16 x 16
+
+        // Create divs through JS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////
+
+//let div = document.createElement('div')
+//let divWide = document.getElementById();
+//let divTall = document.getElementById();
+//let amountDiv;
 
 //// function createDiv (sqr) {}
 
