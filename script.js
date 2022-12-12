@@ -41,7 +41,11 @@ function letsGo() {
 
 function getInput() {
         input = prompt("How many blocks?");
-        // if typeof != number then repeat
+        
+        if (isNaN(input)) {
+                getInput();
+        }
+        
         amountBlocks = Number(input);
 }
 
