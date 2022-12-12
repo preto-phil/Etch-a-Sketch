@@ -10,9 +10,6 @@ function createDivFunction() {
         
         let createDiv = document.createElement('div');
 
-        createDiv.style.width = "5px";
-        createDiv.style.height = "5px";
-        createDiv.style.display = "inline-block";
         createDiv.classList.add('newDiv')
 
 
@@ -66,9 +63,3 @@ function deleteDiv() {
 
         amountBlocks = amountBlocks - 1;
 }
-
-
-
-
-// Next problem to work on
-        // Clear all child nodes (content of gridBox div) after clicking reset button
