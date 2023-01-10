@@ -42,12 +42,17 @@ function sixteenGrid() {
         for (i = 0; i < 16; i++) {
                 
                 
-                createDivFunction();
+                // createDivFunction();
+
+                // Append block vertically down
                 
                 
                 
                 for (j = 0; j < 16; j++) {
-                        createDivFunction;
+                        
+                        // createDivFunction;
+
+                        // Append block horizontally
                 }
         }        
 }
