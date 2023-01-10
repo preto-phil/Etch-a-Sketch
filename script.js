@@ -36,6 +36,26 @@ function letsGo() {
 }        
        
 
+/*
+
+function sixteenGrid() {
+        for (i = 0; i < 16; i++) {
+                
+                
+                createDivFunction();
+                
+                
+                
+                for (j = 0; j < 16; j++) {
+                        createDivFunction;
+                }
+        }        
+}
+
+
+*/
+
+
 function getInput() {
         input = prompt("How many blocks?");
         
