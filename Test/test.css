@@ -1,0 +1,184 @@
+
+html, body {
+    color: black;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(202, 199, 199);
+}
+
+
+/* Top Block */
+
+.top-block {
+    display: flex;
+
+    width: 1000px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: monospace;
+    font-size: 48px;
+
+    padding: 20px;
+
+    border: 6px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(0,0,0);
+}
+
+
+
+/* Middle Block */
+
+.middle-block {
+    display: flex;
+
+    width: 1000px;
+    height: 500px;
+
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+
+    border: 6px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(0,0,0);
+}
+
+.gridBox {
+    display: inline-block;
+
+    height: 10cm;
+    width: 10cm;
+
+    border: 6px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(0,0,0);
+}
+
+
+.newDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    
+    /* 
+    aspect-ratio: 1 / 1;
+    gap: 2px; 
+    */
+    
+    padding: 5px;
+
+    border: 4px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(0,0,0);
+
+    justify-content: center;
+    align-items: center;
+
+    
+
+    /* Playing around with flexbox - if no success use inline-block */
+}
+
+
+.gridBox div:hover {
+    background-color: blue;
+}
+
+
+
+
+/* Work ons for later
+
+.left-middle-block {
+    display: flex;
+}
+
+.right-middle-block {
+    display: flex;
+
+    flex-direction: column;
+
+    height: 400px;
+
+    width: 750px;
+
+    margin-left: 10px;
+}
+
+.top-rmb {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    height: 100px;
+}
+
+.bottom-rmb {
+    display: flex;
+
+    height: 300px;
+}
+
+*/
+
+
+/* Bottom block */
+
+.bottom-block {
+    display: flex;
+
+    width: 1000px;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    border: 6px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(0,0,0);
+}
+
+button {
+
+    background-color: rgb(109, 108, 106);
+
+    font-size: 28px;
+
+    padding: 20px;
+
+    border: 6px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
