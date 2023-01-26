@@ -1,4 +1,9 @@
 
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 .board{
     width: 500px;
@@ -9,4 +14,9 @@
     border-radius: 5px;
     border-color: black;
     margin-bottom: 15px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
 }
