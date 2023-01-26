@@ -12,7 +12,8 @@ function fillBoard(size) {
 
     for(i = 0; i < amount; i++) {
         let square = document.createElement("div");
-        square.style.backgroundColor = 'blue';
+        square.addEventListener('mouseover', () => {square.style.backgroundColor = 'black'});
+        square.style.backgroundColor = 'white';
         board.insertAdjacentElement("beforeend", square);
     }
 }
@@ -20,5 +21,12 @@ function fillBoard(size) {
 fillBoard(16);
 
 function changeSize(input) {
-    fillBoard(input);
+    if(input < 4) {
+        alert("Size cannot be smaller than 4")
+    }
+    if(input > 100) {
+        alert("Size cannot be larger than a 100")
+    } else {
+        fillBoard(input);
+    }
 }
