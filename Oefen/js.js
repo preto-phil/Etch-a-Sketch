@@ -1,4 +1,7 @@
 
+let color = 'black';
+let randomColor = Math.floor(Math.random()*16777215).toString(16);
+
 function fillBoard(size) {
     let board = document.querySelector(".board");
 
@@ -12,10 +15,18 @@ function fillBoard(size) {
 
     for(i = 0; i < amount; i++) {
         let square = document.createElement("div");
-        square.addEventListener('mouseover', () => {square.style.backgroundColor = 'black'});
+        square.addEventListener('mouseover', colorSquare);
         square.style.backgroundColor = 'white';
         board.insertAdjacentElement("beforeend", square);
     }
+}
+
+function colorSquare() {
+    this.style.backgroundColor = 'color';
+}
+
+function changeColor() {
+
 }
 
 fillBoard(16);
