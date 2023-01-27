@@ -1,18 +1,28 @@
 
-body{
+html, body{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: monospace;
+    background-color: darkgray;
+
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 60px;
 }
 
 .board{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     display: grid;
     border: 5px;
     border-style: solid;
     border-radius: 5px;
     border-color: black;
+    border-width: 10px;
     margin-bottom: 15px;
 }
 

@@ -1,6 +1,5 @@
 
-let color = 'black';
-let randomColor = Math.floor(Math.random()*16777215).toString(16);
+let color;
 
 function fillBoard(size) {
     let board = document.querySelector(".board");
@@ -22,7 +21,11 @@ function fillBoard(size) {
 }
 
 function colorSquare() {
-    this.style.backgroundColor = color;
+    if(color === 'random') {
+        this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    } else {
+        this.style.backgroundColor = color;
+    }
 }
 
 function changeColor(choice) {
