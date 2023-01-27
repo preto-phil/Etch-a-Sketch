@@ -22,11 +22,11 @@ function fillBoard(size) {
 }
 
 function colorSquare() {
-    this.style.backgroundColor = 'color';
+    this.style.backgroundColor = color;
 }
 
-function changeColor() {
-
+function changeColor(choice) {
+    color = choice;
 }
 
 fillBoard(16);
