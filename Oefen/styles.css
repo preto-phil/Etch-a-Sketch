@@ -29,4 +29,19 @@ h1{
 button{
     margin: 5px;
     padding: 5px;
+
+    background-color: rgb(231, 239, 245);
+}
+
+.mode{
+    font-family: monospace;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+
+
+button:focus {
+    background-color: rgb(90, 96, 121);
 }
